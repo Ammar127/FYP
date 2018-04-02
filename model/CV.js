@@ -3,14 +3,38 @@ const mongoose = require('mongoose');
 // User Schema
 const CVSchema = mongoose.Schema({
 
-    objective: { type: String},
-    education: [{type:Object}],//'[object Object],[object Object],[object Object]',
-    projects:  [{type:Object}],//'[object Object]',
-    experience:  [{type:Object}],//'[object Object]',
-    skills:  [{type:Object}],//'[object Object],[object Object]',
-    acheivements:  [{type:String}],//'12',
-    certifications:  [{type:String}],
-    area:  [{type:String}]
+    stdid:{type:String},
+ objective: {type:String},
+    education:
+    [
+        { degree: {type:String},
+        inst: {type:String},
+        session: {type:String},
+        marks: {type:String} },
+        { degree: {type:String},
+            inst: {type:String},
+            session: {type:String},
+            marks: {type:String} },
+        { degree: {type:String},
+            inst: {type:String},
+            session: {type:String},
+            marks: {type:String} }
+    ],
+        projects:
+    [
+        { title: {type:String},
+        tech: {type:String},
+        desc: {type:String} }
+        ],
+        experience:
+    [ { company: {type:String},
+        designation: {type:String},
+        startDate: {type:String},
+        endDate: {type:String}} ],
+        skills: [ { name: {type:String}, rate: {type:String} } ],
+    achievements: [  {type:String} ],
+    certifications: [ {type:String} ],
+    areaOfInterests: [ {type:String} ]
 
 
 });

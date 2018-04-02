@@ -35,7 +35,7 @@ router.get('/editprof', function(req, res, next) {
     });
 });
 router.post('/editprof', function(req, res, next) {
-console.log(req.body);
+    console.log(req.body);
     stdprof.findOne({std_id:req.user._id},function (err,prof) {
         if(prof){
 
@@ -68,34 +68,119 @@ console.log(req.body);
                 about: req.body.about
             });
         }
-            prof.save(function(err,prof){
-                if(err){
-                    return
-                }
-                else{
-                    res.redirect('/std/home');
-                }
-            });
+        prof.save(function(err,prof){
+            if(err){
+                return
+            }
+            else{
+                res.redirect('/std/home');
+            }
+        });
 
 
     });
 
 
-   // console.log(req.body);
+    // console.log(req.body);
 });
 
 
 router.get('/build', function(req, res, next) {
-    //res.redirect('/users/register')
+
+    //res.redirect('/users/home')
     res.render('std/CVBuild',{layout:null});
+});
+
+router.get('/sedu', function(req, res, next) {
+    CV.findOne({std_id:req.user._id},
+        function(err,doc){
+            if(doc)
+            {
+                var ed = {
+                    title:req.body.title,
+                    sdate:req.body.sdate,
+                    edate:req.body.edate,
+                    desc:req.body.desc
+                }
+                doc.Education.push(ed);
+
+            }
+            else if (!doc){
+                var ed = {
+                    title:req.body.title,
+                    sdate:req.body.sdate,
+                    edate:req.body.edate,
+                    desc:req.body.desc
+                }
+                doc = new CV(
+                    std_id =req.user._id,
+
+                    doc.Education.push(ed)
+                );
+            }
+            doc.save(function (err) {
+                if(err){
+                    console.log(err);
+                    res.redirect('/std/home');
+                }
+                else
+                    res.redirect('/std/build');
+
+            })
+        }
+    );
+    //res.render('std/CVBuild');
 });
 router.post('/build', function(req, res, next) {
 
-    var ca = new CV(req.body);
-    ca.save();
-    console.log(req.body);
-    res.redirect('/std/home')
-    //res.render('std/CVBuild',{layout:null});
+   
+    CV.findOne({stdid:req.user._id},
+        function(err,doc){
+            if(doc)
+            {
+                console.log("Doc found------------------------");
+                doc.objective= req.body.objective,
+                doc.education=req.body.education,
+                doc.projects=req.body.projects,
+                doc.experience=req.body.experience,
+                doc.skills= req.body.skills,
+                doc.achievements= req.body.achievements,
+                doc.certifications= req.body.certifications,
+                doc.areaOfInterests= req.body.areaOfInterests
+
+
+            }
+            else if (!doc){
+
+                console.log("Noot found*******************************");
+                doc = new CV({
+                    stdid : req.user._id,
+                    objective: req.body.objective,
+                    education:req.body.education,
+                    projects:req.body.projects,
+                    experience:req.body.experience,
+                    skills: req.body.skills,
+                    achievements: req.body.achievements,
+                    certifications: req.body.certifications,
+                    areaOfInterests: req.body.areaOfInterests
+                } );
+
+            }
+
+            doc.save(function (err) {
+                if(err) {
+
+                    console.log(err);
+                    res.send('0');
+                }
+                else
+                    res.send('1');
+            });
+
+        }
+    );
+
+
 
 });
 

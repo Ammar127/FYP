@@ -44,8 +44,8 @@
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="/asset/https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="/asset/https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="/asset/css/jquery-ui.css">
     <link rel="stylesheet" href="/asset/js/jquery.tag-editor.css">
@@ -57,10 +57,7 @@
 
 <body>
 <div class="page category-page">
-    {{> loader }}
-    {{>header this}}
-    {{> bread}}
-    {{> _msg this}}
+
 
     <section class="dashboard-body">
         <div class="container">
@@ -78,7 +75,18 @@
                                 <li><a href="#" class="icoLinkedin" title="Linkedin +"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
-                        {{> stdnav}}
+                        <div class="profile-nav">
+                            <div class="panel">
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li> <a href="/asset/user-dashboard.html"> <i class="fa fa-user"></i> Profile</a> </li>
+                                    <li> <a href="/asset/user-edit-profile.html"> <i class="fa fa-edit"></i> Edit Profile</a> </li>
+                                    <li class="active"> <a href="/asset/user-resume-build.html"> <i class="fa fa-file-o"></i>Build Resume </a> </li>
+                                    <li> <a href="/asset/user-resume.html"> <i class="fa fa-file-o"></i>Saved Resume </a> </li>
+                                    <li> <a href="/asset/user-job-applied.html"> <i class="fa  fa-list-ul"></i> Jobs Applied</a> </li>
+                                    <li> <a href="/asset/user-followed-companies.html"> <i class="fa  fa-bookmark-o"></i> Followed Companies </a> </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-8 col-sm-8 col-xs-12">
                         <div>
@@ -474,7 +482,7 @@
             </div>
         </div>
     </section>
-{{> footer}}
+
     <a href="#" class="scrollup"><i class="fa fa-chevron-up"></i></a>
 
     <!-- JAVASCRIPT JS  -->
@@ -506,7 +514,7 @@
 
     <!-- CORE JS -->
     <script type="text/javascript" src="/asset/js/custom.js"></script>
-    <script src="/asset/ckeditor/ckeditor.js"></script>
+    <script src="/asset/ckeditorbasic/ckeditor.js"></script>
     <script>
 
 
@@ -793,7 +801,7 @@
             });
             $(".df").click(function(){
 
-                var edu = {};
+                var edu = [];
                 edu[0] = {};
                 edu[0].degree = $("#bs_degree").val();
                 edu[0].inst = "PUCIT";
@@ -810,7 +818,7 @@
                 edu[2].session = $("#matric_session").val();
                 edu[2].marks = $("#matric_marks").val();
 
-                var proj = {};
+                var proj = [];
                 for(var i = 0; i < projTitle.length; i++){
                     proj[i]  = {};
                     proj[i].title = projTitle[i];
@@ -818,7 +826,7 @@
                     proj[i].desc = projDesc[i];
                 }
 
-                var exp = {};
+                var exp = [];
 
 
                 var temp1 = [];
@@ -849,7 +857,7 @@
                     exp[i].endDate = temp4[i];
                 }
 
-                var skill = {};
+                var skill = [];
 
                 temp1 = [];
                 temp2 = [];
@@ -914,69 +922,18 @@
                 console.log(JSON.stringify(cv));
                 // your CV is ready in a json object named cv
                 // do whatever fuck you want to do.
-                var form = document.createElement("form");
-
-                var object = document.createElement("input");
-                var educate = document.createElement("input");
-                var proje = document.createElement("input");
-                var exper = document.createElement("input");
-                var skil = document.createElement("input");
-                var ach = document.createElement("input");
-                var cert = document.createElement("input");
-                var area = document.createElement("input");
-
-                object.value= cv.objective;
-                object.name= "objective";
-
-                educate.value = cv.education ;
-                educate.name = "education";
-
-                proje.value = cv.projects ;
-                proje.name = "projects";
-
-                exper.value = cv.experience;
-                exper.name = "experience";
-
-                skil.value = cv.skills ;
-                skil.name ="skills";
-
-                ach.value =cv.achievements ;
-                ach.name = "acheivements";
-
-                cert.value = cv.certifications;
-                cert.name ="certifications";
-
-                area.value = cv.areaOfInterests;
-                area.name ="area";
-
-
-                form.method = "POST";
-                form.action = "/std/build";
-
-
-                form.appendChild(object);
-                form.appendChild(educate);
-                form.appendChild(proje);
-                form.appendChild(exper);
-                form.appendChild(skil);
-                form.appendChild(ach);
-                form.appendChild(cert)
-                form.appendChild(area)
-
-                document.body.appendChild(form);
-
-                form.submit();
-                /*$.ajax({
+                $.ajax({
                     type: 'POST',
                     data: JSON.stringify(cv),
                     contentType: 'application/json',
-                    url: 'std/createCVofStudent',
+                    url: '/std/build',
                     success: function(data) {
                         alert(data);
                         if(data != "1"){
                             alert("Error Code : 1002 \n Error processing your request. \n Please try again.");
                         }
                         else{
+                            alert("send to server");
                             html = "Your CV has been created successfully...";
 
                             $("#cvSuccessAlert").html(html);
@@ -987,7 +944,7 @@
                             }, 2000);
                         }
                     }
-                });*/
+                });
 
             });
         });
