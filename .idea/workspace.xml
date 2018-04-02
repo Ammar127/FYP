@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6d9ff8f-3dbe-4398-b23f-131772353da8" name="Default" comment="">
+    <list default="true" id="c6d9ff8f-3dbe-4398-b23f-131772353da8" name="Default" comment="POSTJOB OK">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -271,7 +271,7 @@
       <workItem from="1522533267094" duration="435000" />
       <workItem from="1522534811410" duration="903000" />
       <workItem from="1522536444560" duration="4965000" />
-      <workItem from="1522569896777" duration="32178000" />
+      <workItem from="1522569896777" duration="32233000" />
     </task>
     <task id="LOCAL-00001" summary="SIGNUP and SIGN in ALL set Now move next">
       <created>1522597269031</created>
@@ -287,11 +287,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522637729426</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="POSTJOB OK">
+      <created>1522637814976</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1522637814976</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54604000" />
+    <option name="totallyTimeSpent" value="54659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -324,7 +331,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SIGNUP and SIGN in ALL set Now move next" />
-    <option name="LAST_COMMIT_MESSAGE" value="SIGNUP and SIGN in ALL set Now move next" />
+    <MESSAGE value="POSTJOB OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="POSTJOB OK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
