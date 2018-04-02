@@ -17,13 +17,13 @@ router.get('/register', function (req, res, next) {
 });
 router.post('/register', function (req, res, next) {
 
-    console.log(req.body);
+   // console.log(req.body);
 
     const email = req.body.email;
     const typ = req.body.jobtype;
     const password = req.body.pjp_pass1;
     //const password2 = req.body.password2;
-    console.log(email, typ, password);
+   // console.log(email, typ, password);
     req.checkBody('jobtype', 'Type is required').notEmpty();
     req.checkBody('email', 'Email is required').notEmpty();
     req.checkBody('email', 'Email is not valid').isEmail();
@@ -74,9 +74,9 @@ router.get('/login', function (req, res, next) {
     res.render('login', {layout: null});
 });
 router.post('/login', function (req, res, next) {
-    console.log(req.body);
+    //console.log(req.body);
     passport.authenticate('local', {
-        successRedirect: '/home',
+        successRedirect: '/',
         failureRedirect: '/users/login',
         failureFlash: true
     })(req, res, next);

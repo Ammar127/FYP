@@ -1,0 +1,113 @@
+
+<link href="/asset/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+<section class="dashboard-body">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="profile-card">
+                        <div class="banner"> <img src="/asset/images/building.jpg" alt="" class="img-responsive"> </div>
+                        <div class="user-image"> <img src="/asset/images/users/profile-avatar.jpg" class="img-responsive img-circle" alt=""> </div>
+                        <div class="card-body">
+                            <h3>Mrs. Emilly Copper</h3>
+                            <span class="title">A web Designer</span> </div>
+                        <ul class="social-network social-circle onwhite">
+                            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="icoLinkedin" title="Linkedin +"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    {{> stdnav}}
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="heading-inner first-heading">
+                        <p class="title">Edit Profile</p>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 nopadding">
+                        <div class="profile-edit row">
+                            <form action="/std/editprof" method="post">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group">
+                                        <label>Full Name <span class="required">*</span></label>
+                                        <input type="text" value="{{prof.Name}}"  placeholder="e.g Syed Taha Hasan" id="sName" name="sName" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group">
+                                        <label>Title</label>
+                                        <input type="text" value="{{prof.Title}}" placeholder="e.g Web Developer" id="sTitle" name="sTitle" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group">
+                                        <label>Date Of Birth <span class="required">*</span></label>
+                                        <div class="input-append date form_date" data-date="" data-date-format="dd-mm-yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                                            <input onBlur="setValue(this.value, 'date_ov')" value="{{prof.DOB}}" class="form-control" type="text" value="" readonly>
+                                            <span class="add-on"><i class="icon-remove"></i></span> <span class="add-on"><i class="icon-th"></i></span> </div>
+                                        <input type="hidden" name="dtp_input2" value="{{prof.DOB}}" id="dtp_input2" required value="" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group">
+                                        <label>Student Id <span class="required">*</span></label>
+                                        <input placeholder="" value="{{prof.roll}}" pattern="[bB][sciSCI][estEST][Ff][0-9]{2}[maMA][05][0-9]{2}"  title="For Example : BCSF14A526, bitf15m034" id="roll" name="roll" class="form-control" type="text" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group">
+                                        <label>CNIC <span class="required">*</span></label>
+                                        <input type="text" name="cnic" value="{{prof.cnic}}"  placeholder="35202-8569745-3" pattern="[0-9]{5}[-][0-9]{7}[-][0-9]{1}" required class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group">
+                                        <label>Email <span class="required">*</span></label>
+                                        <input type="email"  placeholder="taha@gmail.com" value="{{prof.email}}" id="semail" name="semail"  class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group">
+                                        <label>Phone <span class="required">*</span></label>
+                                        <input type="text"  id="sPhone" name="sPhone" value="{{prof.Phone}}" placeholder="0306 411 8818" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group">
+                                        <label>Address <span class="required">*</span></label>
+                                        <input   type="text" id="sAdd" name="sAdd" value="{{prof.address}}" placeholder="PUCIT Canal Bank Road, Hanjarwal Stop" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <label>About yourSelf <span class="required">*</span></label>
+                                        <textarea cols="6" rows="8"  placeholder="" class="form-control" name="about" required> {{prof.about}}</textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <button class="btn btn-default pull-right" type="submit"> Save Profile <i class="fa fa-angle-right"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript" src="/asset/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="/asset/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+<script type="text/javascript" src="/asset/js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
+<script type="text/javascript">
+
+    $('.form_date').datetimepicker({
+        language:  'en',
+        weekStart: 1,
+        todayBtn:  1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 2,
+        minView: 2,
+        forceParse: 0
+    });
+
+</script>

@@ -1,0 +1,51 @@
+
+<section class="dashboard-body">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="panel">
+                        <div class="dashboard-logo-sidebar"> <img class="img-responsive center-block" src="images/company/logo1.jpg" alt="Image"> </div>
+                        <div class="text-center dashboard-logo-sidebar-title">
+                            <h4>Your Company Agency Pvt. Ltd</h4>
+                        </div>
+                    </div>
+
+                    {{> comnav}}
+
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="job-short-detail">
+                        <div class="heading-inner">
+                            <p class="title">Profile detail</p>
+                        </div>
+                        <dl>
+                            <dt>Company:</dt>
+                            <dd>{{prof.companyName}}</dd>
+                            <dt>Established In:</dt>
+                            <dd> 15 Feb,2015 </dd>
+                            <dt>Phone:</dt>
+                            <dd>{{prof.phone}}</dd>
+                            <dt>Email:</dt>
+                            <dd>info@ariestech.net</dd>
+                            <dt>Website:</dt>
+                            <dd>{{prof.website}}</dd>
+                            <dt>No. of Employees:</dt>
+                            <dd>55</dd>
+                            <dt>Address:</dt>
+                            <dd>Office # 12, Zakiya Plaza, Muslim Town</dd>
+                            <dt>City:</dt>
+                            <dd>{{prof.city}}</dd>
+                            <dt>Country:</dt>
+                            <dd>{{prof.country}}</dd>
+                        </dl>
+                    </div>
+                    <div class="heading-inner">
+                        <p class="title">Some Line About Our Company</p>
+                    </div>
+                    <p>{{prof.desc}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

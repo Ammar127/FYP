@@ -202,14 +202,12 @@
 
             {{#if user}}
                 {{#equal user.typ 'Student' }}
-                    <li><a href="index8.html"><i class="fa fa-angle-right"></i> Student
-                        <label class="label label-info">New</label>
-                    </a></li>
+                  <li>  <a href="/std/home"> Home </a></li>
+
+                  <li>  <a href="/std/home"> My Profile </a></li>
                 {{/equal}}
                 {{#equal user.typ 'Company' }}
-                    <li><a href="index8.html"><i class="fa fa-angle-right"></i> Company
-                        <label class="label label-info">New</label>
-                    </a></li>
+                   <li> <a href="/com/home"> Home </a></li>
                 {{/equal}}
                 {{user.typ}}
                     <li class="profile-pic"> <a href="javascript:void(0)"> <img src="/asset/images/admin.jpg" alt="user-img" class="img-circle" width="36"><span class="hidden-xs hidden-sm">Arslan </span><i class="fa fa-angle-down fa-indicator"></i> </a>

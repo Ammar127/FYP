@@ -18,6 +18,8 @@ mongoose.connect('mongodb://localhost/FYP')
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var stdRouter = require('./routes/std');
+var comRouter = require('./routes/com');
 
 var app = express();
 // Express Validator Middleware
@@ -46,6 +48,8 @@ app.set('views', path.join(__dirname, 'views'));
 
 hbs.registerHelper("equal", require("handlebars-helper-equal"))
 hbs.registerPartials(__dirname + '/views/partial');
+hbs.registerPartials(__dirname + '/views/std');
+hbs.registerPartials(__dirname + '/views/com');
 app.set('view engine', 'hbs');
 
 
@@ -113,7 +117,7 @@ app.use(function(req, res, next){
     res.locals.error_msg = req.flash('error_msg');
     res.locals.error = req.flash('error');
     res.locals.user = req.user || null;
-    console.log(res.locals.user);
+   // console.log(res.locals.user);
     next();
 });
 
@@ -127,6 +131,9 @@ app.use(function(req, res, next){
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+
+app.use('/std', stdRouter);
+app.use('/com', comRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
