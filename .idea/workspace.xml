@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6d9ff8f-3dbe-4398-b23f-131772353da8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/CV.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/com.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/job.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/std.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/com.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/std.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/com/alljobs.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/com/editprof.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/com/home.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/com/postjob.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/com/prof.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/partial/comnav.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/partial/stdnav.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/std/CVBuild.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/std/editprof.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/std/home.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/std/prof.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/asset/images/Thumbs.db" afterPath="$PROJECT_DIR$/public/asset/images/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/asset/images/bg/Thumbs.db" afterPath="$PROJECT_DIR$/public/asset/images/bg/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/asset/images/blog/Thumbs.db" afterPath="$PROJECT_DIR$/public/asset/images/blog/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/asset/images/clients/Thumbs.db" afterPath="$PROJECT_DIR$/public/asset/images/clients/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/asset/images/company-logo/Thumbs.db" afterPath="$PROJECT_DIR$/public/asset/images/company-logo/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/asset/images/company/Thumbs.db" afterPath="$PROJECT_DIR$/public/asset/images/company/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/asset/images/footer/Thumbs.db" afterPath="$PROJECT_DIR$/public/asset/images/footer/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/asset/images/slider/Thumbs.db" afterPath="$PROJECT_DIR$/public/asset/images/slider/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/asset/images/team/2.png" afterPath="$PROJECT_DIR$/public/asset/images/team/2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/asset/images/team/Thumbs.db" afterPath="$PROJECT_DIR$/public/asset/images/team/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/asset/images/users/Thumbs.db" afterPath="$PROJECT_DIR$/public/asset/images/users/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/asset/images/users/profile-avatar.jpg" afterPath="$PROJECT_DIR$/public/asset/images/users/profile-avatar.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/users.js" afterPath="$PROJECT_DIR$/routes/users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.hbs" afterPath="$PROJECT_DIR$/views/layout.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partial/header.hbs" afterPath="$PROJECT_DIR$/views/partial/header.hbs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -305,7 +271,7 @@
       <workItem from="1522533267094" duration="435000" />
       <workItem from="1522534811410" duration="903000" />
       <workItem from="1522536444560" duration="4965000" />
-      <workItem from="1522569896777" duration="32109000" />
+      <workItem from="1522569896777" duration="32178000" />
     </task>
     <task id="LOCAL-00001" summary="SIGNUP and SIGN in ALL set Now move next">
       <created>1522597269031</created>
@@ -314,11 +280,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522597269031</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SIGNUP and SIGN in ALL set Now move next">
+      <created>1522637729426</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522637729426</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54535000" />
+    <option name="totallyTimeSpent" value="54604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
