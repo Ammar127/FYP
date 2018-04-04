@@ -27,6 +27,10 @@ const jobSchema = mongoose.Schema({
         type: String,
         required: true
     },
+    dateposted: {
+        type: Date,
+        default: Date.now
+    },
     tag:{
         type: String,
         required: true
@@ -35,7 +39,8 @@ const jobSchema = mongoose.Schema({
     editor:{
         type: String,
         required: true
-    }
+    },
+    app:[{type:String}]
 });
 
 const Job = module.exports = mongoose.model('Job', jobSchema);

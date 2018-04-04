@@ -2,104 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6d9ff8f-3dbe-4398-b23f-131772353da8" name="Default" comment="POSTJOB OK">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/img/github-top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/img/header-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/img/header-separator.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/img/navigation-tip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/assets/inlineall/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/assets/sample.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/font/fontello.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/font/fontello.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/font/fontello.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/icons_hidpi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/images/hidpi/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/images/hidpi/lock-open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/images/hidpi/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/images/hidpi/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/images/lock-open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/images/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/images/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/images/spinner.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/CHANGES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/adapters/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/basic_preset.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/build-config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/ckeditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/contents.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/plugins/clipboard/dialogs/paste.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/css/samples.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/img/logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/js/sample.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/js/sf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/ajax.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/api.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/appendto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/assets/outputxhtml/outputxhtml.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/assets/posteddata.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/assets/uilanguages/languages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/datafiltering.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/dialog/assets/my_dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/dialog/dialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/divreplace.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/enterkey/enterkey.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/inlineall.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/inlinebycode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/inlinetextarea.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/jquery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/readonly.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/replacebyclass.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/replacebycode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/sample.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/sample.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/sample_posteddata.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/tabindex.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/toolbar/toolbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/uicolor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/uilanguages.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/wysiwygarea/fullpage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/old/xhtmlstyle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/css/fontello.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/font/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/font/config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/font/fontello.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/js/fulltoolbareditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/js/toolbarmodifier.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/js/toolbartextmodifier.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/lib/codemirror/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/lib/codemirror/codemirror.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/lib/codemirror/codemirror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/lib/codemirror/javascript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/lib/codemirror/neo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/lib/codemirror/show-hint.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/samples/toolbarconfigurator/lib/codemirror/show-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/dialog_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/dialog_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/dialog_iequirks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/editor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/editor_gecko.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/editor_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/editor_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/editor_iequirks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/skins/moono-lisa/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/asset/ckeditorbasic/styles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/com/fulljob.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/com/viewcv.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/std/fulljob.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/std/viewcv.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/CV.js" afterPath="$PROJECT_DIR$/model/CV.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/job.js" afterPath="$PROJECT_DIR$/model/job.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/com.js" afterPath="$PROJECT_DIR$/routes/com.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/std.js" afterPath="$PROJECT_DIR$/routes/std.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partial/comnav.hbs" afterPath="$PROJECT_DIR$/views/partial/comnav.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/com/alljobs.hbs" afterPath="$PROJECT_DIR$/views/com/alljobs.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/com/postjob.hbs" afterPath="$PROJECT_DIR$/views/com/postjob.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/com/prof.hbs" afterPath="$PROJECT_DIR$/views/com/prof.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.hbs" afterPath="$PROJECT_DIR$/views/layout.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partial/header.hbs" afterPath="$PROJECT_DIR$/views/partial/header.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partial/stdnav.hbs" afterPath="$PROJECT_DIR$/views/partial/stdnav.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/std/CVBuild.hbs" afterPath="$PROJECT_DIR$/views/std/CVBuild.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/std/editprof.hbs" afterPath="$PROJECT_DIR$/views/std/editprof.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/std/home.hbs" afterPath="$PROJECT_DIR$/views/std/home.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/std/prof.hbs" afterPath="$PROJECT_DIR$/views/std/prof.hbs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -113,19 +33,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="std.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="std.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/std.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="138" column="19" lean-forward="true" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
+            <state relative-caret-position="111">
+              <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="15" />
               <folding>
-                <element signature="e#198#283#0" expanded="false" />
-                <element signature="e#331#400#0" expanded="false" />
-                <element signature="e#448#631#0" expanded="false" />
-                <element signature="e#683#870#0" expanded="false" />
-                <element signature="e#2194#2277#0" expanded="false" />
-                <element signature="e#2326#3381#0" expanded="false" />
-                <element signature="e#4719#4908#0" expanded="false" />
+                <element signature="e#1507#1712#0" expanded="false" />
+                <element signature="e#1764#1972#0" expanded="false" />
+                <element signature="e#2025#3245#0" expanded="false" />
+                <element signature="e#3294#3631#0" expanded="false" />
+                <element signature="e#3681#3764#0" expanded="false" />
+                <element signature="e#3815#5177#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -134,54 +53,35 @@
       <file leaf-file-name="com.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/com.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+            <state relative-caret-position="111">
+              <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              <folding>
+                <element signature="e#271#358#0" expanded="false" />
+                <element signature="e#406#497#0" expanded="false" />
+                <element signature="e#801#1001#0" expanded="false" />
+                <element signature="e#2582#2792#0" expanded="false" />
+                <element signature="e#3943#4015#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="69" column="10" lean-forward="true" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CVBuild.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/std/CVBuild.hbs">
+      <file leaf-file-name="header.hbs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/partial/header.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="929" column="45" lean-forward="true" selection-start-line="929" selection-start-column="45" selection-end-line="929" selection-end-column="45" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#17785#17791#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#8;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#9;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#10;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#11;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#5;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#5;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1522702621857" expanded="true" signature="43023:43035" ph="..." />
-                <marker date="1522702621857" expanded="true" signature="43149:43174" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CV.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/CV.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#161#569#0" expanded="false" />
-                <element signature="e#171#287#0" expanded="false" />
-                <element signature="e#297#425#0" expanded="false" />
-                <element signature="e#435#563#0" expanded="false" />
-                <element signature="e#593#695#0" expanded="false" />
-                <element signature="e#723#850#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="209" column="0" lean-forward="true" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -190,10 +90,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>form</find>
-      <find>/asset/#</find>
-      <find>hbs</find>
-      <find>consol</find>
       <find>editor</find>
       <find>des</find>
       <find>href=&quot;/asset/#&quot;</find>
@@ -214,12 +110,16 @@
       <find>save</find>
       <find>jobType_ov</find>
       <find>addProject</find>
-      <find>src=&quot;</find>
       <find>desc</find>
       <find>ckedi</find>
       <find>_id</find>
       <find>=</find>
       <find>:</find>
+      <find>src=&quot;</find>
+      <find>myModal</find>
+      <find>cv</find>
+      <find>CV</find>
+      <find>findOne</find>
     </findStrings>
     <replaceStrings>
       <replace>href=&quot;/asset</replace>
@@ -229,9 +129,9 @@
       <replace>href=&quot;#&quot;</replace>
       <replace>href=&quot;#</replace>
       <replace>href=&quot;/asset/</replace>
-      <replace>src=&quot;/asset/</replace>
       <replace>:</replace>
       <replace>=</replace>
+      <replace>src=&quot;/asset/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -261,27 +161,31 @@
         <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/views/com/home.hbs" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/views/partial/header.hbs" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/model/user.js" />
-        <option value="$PROJECT_DIR$/views/std/home.hbs" />
         <option value="$PROJECT_DIR$/model/std.js" />
-        <option value="$PROJECT_DIR$/views/std/prof.hbs" />
-        <option value="$PROJECT_DIR$/views/partial/stdnav.hbs" />
-        <option value="$PROJECT_DIR$/views/std/editprof.hbs" />
         <option value="$PROJECT_DIR$/views/std/comnav.hbs" />
-        <option value="$PROJECT_DIR$/views/com/prof.hbs" />
         <option value="$PROJECT_DIR$/views/com/editprof.hbs" />
-        <option value="$PROJECT_DIR$/views/layout.hbs" />
-        <option value="$PROJECT_DIR$/views/com/postjob.hbs" />
         <option value="$PROJECT_DIR$/model/com.js" />
-        <option value="$PROJECT_DIR$/model/job.js" />
-        <option value="$PROJECT_DIR$/routes/com.js" />
-        <option value="$PROJECT_DIR$/views/com/alljobs.hbs" />
         <option value="$PROJECT_DIR$/views/partial/comnav.hbs" />
+        <option value="$PROJECT_DIR$/views/std/editprof.hbs" />
+        <option value="$PROJECT_DIR$/views/std/prof.hbs" />
         <option value="$PROJECT_DIR$/views/std/CVBuild.hbs" />
+        <option value="$PROJECT_DIR$/views/std/viewcv.hbs" />
         <option value="$PROJECT_DIR$/model/CV.js" />
+        <option value="$PROJECT_DIR$/views/com/prof.hbs" />
+        <option value="$PROJECT_DIR$/views/com/postjob.hbs" />
+        <option value="$PROJECT_DIR$/views/std/fulljob.hbs" />
+        <option value="$PROJECT_DIR$/model/job.js" />
+        <option value="$PROJECT_DIR$/views/std/home.hbs" />
+        <option value="$PROJECT_DIR$/views/com/alljobs.hbs" />
+        <option value="$PROJECT_DIR$/views/com/viewcv.hbs" />
+        <option value="$PROJECT_DIR$/views/com/fulljob.hbs" />
+        <option value="$PROJECT_DIR$/views/partial/stdnav.hbs" />
         <option value="$PROJECT_DIR$/routes/std.js" />
+        <option value="$PROJECT_DIR$/routes/com.js" />
+        <option value="$PROJECT_DIR$/views/layout.hbs" />
+        <option value="$PROJECT_DIR$/views/partial/header.hbs" />
       </list>
     </option>
   </component>
@@ -316,17 +220,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
               <item name="FYP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FYP" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
@@ -342,14 +242,13 @@
               <item name="FYP" type="b2602c69:ProjectViewProjectNode" />
               <item name="FYP" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="std" type="462c0819:PsiDirectoryNode" />
+              <item name="partial" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,17 +258,18 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="SearchEverywhereHistoryKey" value="term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;termi&#9;ACTION&#9;ActivateTerminalToolWindow" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Rss" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ammar\WebstormProjects\FYP\views\com" />
+      <recent name="C:\Users\Ammar\WebstormProjects\FYP\public\asset" />
+      <recent name="C:\Users\Ammar\WebstormProjects\FYP\model" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ammar\WebstormProjects\FYP\views\partial" />
       <recent name="C:\Users\Ammar\WebstormProjects\FYP\views" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ammar\WebstormProjects\FYP\public\asset" />
-      <recent name="C:\Users\Ammar\WebstormProjects\FYP\model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -406,7 +306,9 @@
       <workItem from="1522569896777" duration="39126000" />
       <workItem from="1522687710667" duration="31000" />
       <workItem from="1522689422293" duration="27000" />
-      <workItem from="1522701259664" duration="6807000" />
+      <workItem from="1522701259664" duration="8041000" />
+      <workItem from="1522761885354" duration="12259000" />
+      <workItem from="1522802739525" duration="9542000" />
     </task>
     <task id="LOCAL-00001" summary="SIGNUP and SIGN in ALL set Now move next">
       <created>1522597269031</created>
@@ -433,17 +335,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68417000" />
+    <option name="totallyTimeSpent" value="91452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18155198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35015774" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35015774" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -464,8 +367,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35015774" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18155198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -489,39 +392,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="34" lean-forward="false" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/passport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="31" lean-forward="false" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -663,60 +538,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helper/auth.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/com/home.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partial/header.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="206" column="55" lean-forward="false" selection-start-line="206" selection-start-column="55" selection-end-line="206" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/std/home.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/std/prof.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="66" lean-forward="false" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/std/editprof.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="101" lean-forward="true" selection-start-line="30" selection-start-column="101" selection-end-line="30" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/asset/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partial/stdnav.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -734,13 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/com/prof.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/login.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -748,119 +566,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/std.js">
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="385">
+          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/std/editprof.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/std/CVBuild.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="827" column="0" lean-forward="true" selection-start-line="827" selection-start-column="0" selection-end-line="827" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/std/viewcv.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="99" column="41" lean-forward="false" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/com/home.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/com/prof.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/com/postjob.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="140" column="162" lean-forward="false" selection-start-line="140" selection-start-column="162" selection-end-line="140" selection-end-column="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/std/fulljob.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="50" column="96" lean-forward="false" selection-start-line="50" selection-start-column="89" selection-end-line="50" selection-end-column="96" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/com.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="7" selection-end-column="6" />
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.hbs">
+    <entry file="file://$PROJECT_DIR$/views/std/home.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/job.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="72">
+          <caret line="45" column="106" lean-forward="false" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="106" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/com/alljobs.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        <state relative-caret-position="153">
+          <caret line="25" column="98" lean-forward="true" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="98" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/partial/comnav.hbs">
+    <entry file="file://$PROJECT_DIR$/model/job.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/std/prof.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/com/fulljob.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/com/postjob.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="347" column="11" lean-forward="true" selection-start-line="347" selection-start-column="11" selection-end-line="347" selection-end-column="11" />
+          <caret line="8" column="65" lean-forward="true" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+          <folding>
+            <element signature="e#2758#2764#0#HTML" expanded="false" />
+            <element signature="e#2764#2770#0#HTML" expanded="false" />
+            <element signature="e#2770#2776#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/com/editprof.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="17" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/com.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/std/CVBuild.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="929" column="45" lean-forward="true" selection-start-line="929" selection-start-column="45" selection-end-line="929" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#17785#17791#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#8;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#9;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#10;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#11;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#5;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#5;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1522702621857" expanded="true" signature="43023:43035" ph="..." />
-            <marker date="1522702621857" expanded="true" signature="43149:43174" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/CV.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
           <folding>
-            <element signature="e#161#569#0" expanded="false" />
-            <element signature="e#171#287#0" expanded="false" />
             <element signature="e#297#425#0" expanded="false" />
             <element signature="e#435#563#0" expanded="false" />
             <element signature="e#593#695#0" expanded="false" />
@@ -869,19 +712,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/std.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/com/viewcv.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partial/stdnav.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partial/comnav.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/std.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="138" column="19" lean-forward="true" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
+        <state relative-caret-position="111">
+          <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="15" />
           <folding>
-            <element signature="e#198#283#0" expanded="false" />
-            <element signature="e#331#400#0" expanded="false" />
-            <element signature="e#448#631#0" expanded="false" />
-            <element signature="e#683#870#0" expanded="false" />
-            <element signature="e#2194#2277#0" expanded="false" />
-            <element signature="e#2326#3381#0" expanded="false" />
-            <element signature="e#4719#4908#0" expanded="false" />
+            <element signature="e#1507#1712#0" expanded="false" />
+            <element signature="e#1764#1972#0" expanded="false" />
+            <element signature="e#2025#3245#0" expanded="false" />
+            <element signature="e#3294#3631#0" expanded="false" />
+            <element signature="e#3681#3764#0" expanded="false" />
+            <element signature="e#3815#5177#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/com.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="e#271#358#0" expanded="false" />
+            <element signature="e#406#497#0" expanded="false" />
+            <element signature="e#801#1001#0" expanded="false" />
+            <element signature="e#2582#2792#0" expanded="false" />
+            <element signature="e#3943#4015#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="69" column="10" lean-forward="true" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partial/header.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="209" column="0" lean-forward="true" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

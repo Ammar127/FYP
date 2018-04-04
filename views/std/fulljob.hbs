@@ -1,0 +1,86 @@
+<section class="single-job-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 nopadding">
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="single-job-page">
+                        <div class="job-short-detail">
+                            <div class="heading-inner">
+                                <p class="title">{{doc.j_title}}</p>
+                            </div><br>
+                            <div class="heading-inner">
+                                <p class="title">Job Details</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 nopadding">
+                                <dl>
+                                    <dt>Job Type:</dt>
+                                    <dd>{{doc.jobtype}}</dd>
+
+                                    <dt>Job Experience:</dt>
+                                    <dd>{{doc.j_exp}}</dd>
+
+
+                                    <dt>Posted On:</dt>
+                                    <dd>{{doc.dateposted}}</dd>
+
+                                    <dt>Last Date:</dt>
+                                    <dd> {{doc.date}}</dd>
+
+                                    <dt>Expected Salary:</dt>
+                                    <dd>{{doc.j_sal}} / Month</dd>
+                                </dl>
+                            </div>
+                        </div>
+
+                        <div class="heading-inner">
+                            <p class="title">Job Description</p>
+                        </div>
+                        <div class="job-desc job-detail-boxes">
+                            <p>
+                                {{{doc.editor}}}
+                            </p>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <aside>
+                        <div class="apply-job">
+                            <a class="btn btn-default" data-toggle="modal" data-target="#myModal"><i class="fa fa-upload"></i>Apply For Position</a>
+
+                        </div>
+                        <div class="company-detail">
+                            <div class="company-img">
+                                <img src="images/company/logo2.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="company-contact-detail">
+                                <table>
+                                    <tr>
+                                        <th>Name:</th>
+                                        <td> {{item.companyName}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Email:</th>
+                                        <td> {{item.email}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Phone:</th>
+                                        <td> {{item.phone}}</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Website:</th>
+                                        <td> {{item.website}}</td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

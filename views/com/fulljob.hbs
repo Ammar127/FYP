@@ -1,0 +1,78 @@
+<section class="single-job-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 nopadding">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="panel">
+                        <div class="dashboard-logo-sidebar"> <img class="img-responsive center-block" src="/asset/images/company/logo1.jpg" alt="Image"> </div>
+                        <div class="text-center dashboard-logo-sidebar-title">
+                            <h4>Your Company Agency Pvt. Ltd</h4>
+                        </div>
+                    </div>
+
+                    {{> comnav}}
+
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="single-job-page">
+                        <div class="job-short-detail">
+                            <div class="heading-inner">
+                                <p class="title">{{doc.j_title}}</p>
+                            </div><br>
+                            <div class="heading-inner">
+                                <p class="title">Job Details</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 nopadding">
+                                <dl>
+                                    <dt>Job Type:</dt>
+                                    <dd>{{doc.jobtype}}</dd>
+
+                                    <dt>Job Experience:</dt>
+                                    <dd>{{doc.j_exp}}</dd>
+
+
+                                    <dt>Posted On:</dt>
+                                    <dd>{{doc.dateposted}}</dd>
+
+                                    <dt>Last Date:</dt>
+                                    <dd> {{doc.date}}</dd>
+
+                                    <dt>Expected Salary:</dt>
+                                    <dd>{{doc.j_sal}} / Month</dd>
+                                </dl>
+                            </div>
+                        </div>
+
+                        <div class="heading-inner">
+                            <p class="title">Job Description</p>
+                        </div>
+                        <div class="job-desc job-detail-boxes">
+                            <p>
+                                {{{doc.editor}}}
+                            </p>
+
+
+                        </div>
+                        <div class="heading-inner">
+                            <p class="title">Applicants</p>
+                        </div>
+                        <div class="job-desc job-detail-boxes">
+                            <p>
+                            <ul>
+                                {{#each item}}
+                                    <li><a href="/com/fullcv/{{this.std_id}}">{{this.Name}} &nbsp;&nbsp;&nbsp; {{this.Title}}</a></li>
+                                {{/each}}
+                            </ul>
+                        </div>
+                            </p>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

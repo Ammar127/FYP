@@ -203,21 +203,36 @@
             {{#if user}}
                 {{#equal user.typ 'Student' }}
                   <li>  <a href="/std/home"> Home </a></li>
+                    <li>  <a href="#"> International Jobs </a></li>
+                  <li>  <a href="/std/prof"> My Profile </a></li>
+                    <li> <a href="/about"> About Us </a></li>
+                    <li> <a href="/contact"> Contact Us </a></li>
 
-                  <li>  <a href="/std/home"> My Profile </a></li>
+                    <li class="profile-pic"> <a href="javascript:void(0)"> <img src="/asset/images/admin.jpg" alt="user-img" class="img-circle" width="36"><span class="hidden-xs hidden-sm">Arslan </span><i class="fa fa-angle-down fa-indicator"></i> </a>
+                        <ul class="drop-down-multilevel left-side">
+                            <li><a href="/std/prof"><i class="fa fa-user"></i> My Profile</a></li>
+
+                            <li><a href="/users/logout"><i class="fa fa-power-off"></i> Logout</a></li>
+                        </ul>
+                    </li>
+
                 {{/equal}}
                 {{#equal user.typ 'Company' }}
                    <li> <a href="/com/home"> Home </a></li>
-                {{/equal}}
-                {{user.typ}}
+                    <li> <a href="/com/prof"> My Profile </a></li>
+                    <li> <a href="/about"> About Us </a></li>
+                    <li> <a href="/contact"> Contact Us </a></li>
+
                     <li class="profile-pic"> <a href="javascript:void(0)"> <img src="/asset/images/admin.jpg" alt="user-img" class="img-circle" width="36"><span class="hidden-xs hidden-sm">Arslan </span><i class="fa fa-angle-down fa-indicator"></i> </a>
-                    <ul class="drop-down-multilevel left-side">
-                        <li><a href="#"><i class="fa fa-user"></i> My Profile</a></li>
-                        <li><a href="#"><i class="fa fa-mail-forward"></i> Inbox</a></li>
-                        <li><a href="#"><i class="fa fa-gear"></i> Account Setting</a></li>
-                        <li><a href="/users/logout"><i class="fa fa-power-off"></i> Logout</a></li>
-                    </ul>
-                </li>
+                        <ul class="drop-down-multilevel left-side">
+                            <li><a href="/com/prof"><i class="fa fa-user"></i> My Profile</a></li>
+
+                            <li><a href="/users/logout"><i class="fa fa-power-off"></i> Logout</a></li>
+                        </ul>
+                    </li>
+                {{/equal}}
+
+
             {{else}}
                 <li class="no-bg"><a href="/users/login" class="p-job"><i class="fa fa-plus-square"></i>Login</a></li>
 

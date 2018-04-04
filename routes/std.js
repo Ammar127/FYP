@@ -2,19 +2,70 @@ var express = require('express');
 var router = express.Router();
 var stdprof =require('../model/std');
 var CV =require('../model/CV');
-
+var Com = require('../model/com');
+var Job =require('../model/job');
 /* GET home page. */
 router.get('/', function(req, res, next) {
 
-    res.redirect('/std/build');
+    res.redirect('/std/home');
     //res.render('index', { title: 'Express' });
 });
 router.get('/home', function(req, res, next) {
-    //res.redirect('/users/register')
-    res.render('std/home');
+
+    Job.find(function (err,doc) {
+        if(doc){
+            res.render('std/home',{doc:doc});
+        }
+        else
+            res.redirect('/std/home');
+
+
+    });
+
+
 });
+router.get('/fulljob/:id', function(req, res, next) {
+    var id = req.params.id;
+    Job.findOne({_id:id},function (err,doc) {
+        if(doc){
+            Com.findOne({com_id:doc.com_id},function (err,itm) {
+                console.log(itm);
+                res.render('std/fulljob',{doc:doc,item:itm});
+            })
+
+        }
+        else {
+            req.flash('error_msg','Not Found');
+            res.redirect('/std/home');
+        }
+
+    });
+
+
+});
+router.get('/apply/:id',function (req,res,next) {
+    var id = req.params.id;
+    Job.findOne({_id:id},function (err,doc) {
+        if(doc){
+           doc.app.push(req.user.id);
+doc.save();
+req.flash('success_msg','you Successfully Applied on'+doc.j_title+'')
+res.redirect('/std/home');
+        }
+        else {
+            req.flash('error_msg','Not Found');
+            res.redirect('/std/home');
+        }
+
+    });
+
+
+
+});
+
 router.get('/prof', function(req, res, next) {
-    stdprof.findOne(function (err,prof) {
+
+    stdprof.findOne({std_id:req.user.id},function (err,prof) {
         if(prof){
             res.render('std/prof',{prof:prof});
         }
@@ -26,7 +77,7 @@ router.get('/prof', function(req, res, next) {
 });
 router.get('/editprof', function(req, res, next) {
 
-    stdprof.findOne(function (err,prof) {
+    stdprof.findOne({std_id:req.user.id},function (err,prof) {
         if(prof){
             res.render('std/editprof',{prof:prof});
         }
@@ -84,6 +135,18 @@ router.post('/editprof', function(req, res, next) {
     // console.log(req.body);
 });
 
+router.get('/viewcv',function (req,res,next) {
+    CV.findOne({stdid:req.user._id},function(err,doc){
+        if(!doc){
+            req.flash('error_msg','You didn\'t  build any CV , Build One and then view it');
+            res.redirect('/std/build');
+        }
+        else if(doc){
+            console.log(doc);
+            res.render('std/viewcv',{doc:doc});
+        }
+    });
+});
 
 router.get('/build', function(req, res, next) {
 
@@ -91,46 +154,6 @@ router.get('/build', function(req, res, next) {
     res.render('std/CVBuild',{layout:null});
 });
 
-router.get('/sedu', function(req, res, next) {
-    CV.findOne({std_id:req.user._id},
-        function(err,doc){
-            if(doc)
-            {
-                var ed = {
-                    title:req.body.title,
-                    sdate:req.body.sdate,
-                    edate:req.body.edate,
-                    desc:req.body.desc
-                }
-                doc.Education.push(ed);
-
-            }
-            else if (!doc){
-                var ed = {
-                    title:req.body.title,
-                    sdate:req.body.sdate,
-                    edate:req.body.edate,
-                    desc:req.body.desc
-                }
-                doc = new CV(
-                    std_id =req.user._id,
-
-                    doc.Education.push(ed)
-                );
-            }
-            doc.save(function (err) {
-                if(err){
-                    console.log(err);
-                    res.redirect('/std/home');
-                }
-                else
-                    res.redirect('/std/build');
-
-            })
-        }
-    );
-    //res.render('std/CVBuild');
-});
 router.post('/build', function(req, res, next) {
 
    
@@ -138,7 +161,6 @@ router.post('/build', function(req, res, next) {
         function(err,doc){
             if(doc)
             {
-                console.log("Doc found------------------------");
                 doc.objective= req.body.objective,
                 doc.education=req.body.education,
                 doc.projects=req.body.projects,
@@ -152,7 +174,6 @@ router.post('/build', function(req, res, next) {
             }
             else if (!doc){
 
-                console.log("Noot found*******************************");
                 doc = new CV({
                     stdid : req.user._id,
                     objective: req.body.objective,

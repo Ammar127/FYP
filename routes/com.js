@@ -2,7 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 var comprof =require('../model/com');
-
+var stdprof = require('../model/std');
+var CV =require('../model/CV');
 var Job =require('../model/job');
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -15,7 +16,7 @@ router.get('/home', function(req, res, next) {
 });
 router.get('/editprof', function(req, res, next) {
 
-    comprof.findOne(function (err,prof) {
+    comprof.findOne({id:req.user.id},function (err,prof) {
         if(prof){
             res.render('com/editprof',{prof:prof});
         }
@@ -24,7 +25,7 @@ router.get('/editprof', function(req, res, next) {
     });
 });
 router.get('/prof', function(req, res, next) {
-    comprof.findOne(function (err,prof) {
+    comprof.findOne({id:req.user.id},function (err,prof) {
         if(prof){
             res.render('com/prof',{prof:prof});
         }
@@ -106,7 +107,49 @@ router.get('/getjob', function(req, res, next) {
 
 
 });
+router.get('/fullcv/:id',function (req,res,next) {
+    var id = req.params.id;
+    stdprof.findOne({std_id:id},function (err,prof) {
+        if(prof){
+            CV.findOne({stdid:id},function(err,doc){
 
+                if(doc){
+                    console.log(doc,prof);
+                    res.render('com/viewcv',{doc:doc,prof:prof});
+
+            }
+        else {
+                    req.flash('error_msg','Cv Not Found');
+                    res.redirect('/com/home');
+                }
+        });
+        }
+        else{
+
+            req.flash('error_msg','Student Profile Not Found');
+            res.redirect('/com/home');}
+
+});
+});
+router.get('/fulljob/:id', function(req, res, next) {
+    var id = req.params.id;
+    Job.findOne({_id:id},function (err,doc) {
+        if(doc){
+            stdprof.find({std_id:doc.app},function (err,itm) {
+                console.log(itm);
+                res.render('com/fulljob',{doc:doc,item:itm});
+            })
+
+        }
+        else {
+            req.flash('error_msg','Not Found');
+            res.redirect('/com/home');
+        }
+
+    });
+
+
+});
 router.get('/postjob', function(req, res, next) {
     //res.redirect('/users/register')
     res.render('com/postjob');
